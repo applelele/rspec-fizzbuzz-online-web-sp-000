@@ -9,7 +9,7 @@ def fizzbuzz(int)
     "Buzz"
   elsif int % 3 == 0 && int % 5 == 0
     "FizzBuzz"
-    buinding.pry
+  binding.pry
   else
     nil
   end
