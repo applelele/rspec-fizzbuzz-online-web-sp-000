@@ -3,7 +3,7 @@
 require 'pry'
 
 def fizzbuzz(int)
-  if int % 3 == 0 && int % 5 == 0
+  if int % 3 == 0 and int % 5 == 0
     "FizzBuzz"
     binding.pry
   elsif int % 5 == 0
